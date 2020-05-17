@@ -1,0 +1,25 @@
+<h1>{{ hero.nombre }}</h1>
+<p>{{ hero.aparicion }}</p>
+<hr>
+
+<div class="row justify-content-center animated fadeIn fast">
+    <div class="col-md-4 text-center">
+        <img [src]="hero.img" class="img-fluid" alt="{{ hero.name }}">
+        <br><br>
+        <div class="row justify-content-center">
+            <a class="btn btn-outline-primary px-5" [routerLink]="['/heroes']">Volver</a>
+        </div>
+    </div>
+
+    <div class="col-md-8 justify-content-center">
+        <h3>{{ hero.nombre }}</h3>
+        <hr>
+        <p class="text-justify">
+            {{ hero.bio }}
+        </p>
+        <!-- <div>
+          <img class="img-logo" *ngIf="hero.casa == 'DC'" src="assets/img/marvel-logo.png" alt="Marvel logo">
+          <img class="img-logo" *ngIf="hero.casa != 'DC'" src="assets/img/marvel-logo.png" alt="Marvel logo">
+        </div> -->
+    </div>
+</div>
