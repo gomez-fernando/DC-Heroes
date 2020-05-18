@@ -18,6 +18,8 @@ import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { BuscadorComponent } from './components/buscador/buscador.component';
 import { HeroTarjetaComponent } from './components/hero-tarjeta/hero-tarjeta.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { HeroTarjetaComponent } from './components/hero-tarjeta/hero-tarjeta.com
     HeroComponent,
     BuscadorComponent,
     HeroTarjetaComponent,
+    NotFoundComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule, FormsModule, HttpClientModule, APP_ROUTING],
   providers: [HeroesService],

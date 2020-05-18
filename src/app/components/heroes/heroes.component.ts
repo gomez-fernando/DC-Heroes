@@ -20,7 +20,7 @@ export class HeroesComponent implements OnInit {
     // console.log(this.heroes);
   }
 
-  // verHeroe(index: number) {
-  //   this.router.navigate(['/hero', index]);
-  // }
+  verHeroe(index: number) {
+    this.router.navigate(['/hero', index]);
+  }
 }

@@ -6,58 +6,58 @@ export class HeroesService {
     {
       nombre: 'Aquaman',
       bio:
-        'El poder más reconocido de Aquaman es la capacidad telepática para comunicarse con la vida marina, la cual puede convocar a grandes distancias.',
-      img: 'assets/img/aquaman.png',
+        'Aquaman puede ser para siempre el blanco de las bromas de la cultura pop gracias a su interpretación de las caricaturas de Super Friends y sus diversos efectos secundarios. ¿Cómo puede un tipo que habla con los peces resistir a Batman o Superman? Bastante bien, como sabe cualquiera que haya pasado mucho tiempo leyendo cómics de Aquaman. Aquaman no solo es tan fuerte y capaz en la batalla como cualquier persona que nade kilómetros por debajo de la superficie del océano, sino que es el líder del vasto reino submarino de Atlantis. El atractivo principal de Aquaman reside en el hecho de que sus lealtades se ponen a prueba constantemente. ¿Está del lado del mundo de la superficie, donde fue criado, o con su gente de Atlantis? Jason Momoa ha hecho, además, que triunfe en la gran pantalla de una manera que no esperábamos.',
+      img: 'assets/img/aquaman.jpg',
       aparicion: '1941-11-01',
       casa: 'DC',
     },
     {
       nombre: 'Batman',
       bio:
-        'Los rasgos principales de Batman se resumen en «destreza física, habilidades deductivas y obsesión». La mayor parte de las características básicas de los cómics han variado por las diferentes interpretaciones que le han dado al personaje.',
+        'Puedes rastrear las diversas inspiraciones de Batman con suficiente claridad. Él es a partes iguales El Zorro, Sherlock Holmes y la Sombra. Pero reúne todos esos elementos y llegarás a algo realmente especial. Desde 1939, los fans han estado fascinados por la saga de un hombre que se viste como un murciélago para inspirar miedo en los corazones de los criminales. Es una saga que se ha desarrollado en todos los medios. A diferencia de la mayoría de los héroes de DC, Batman no tiene habilidades sobrehumanas. Simplemente tiene la capacidad, los recursos y, lo que es más importante, la voluntad de librar una guerra de un solo hombre contra el crimen. Y es un testimonio de esa voluntad que nadie cuestiona si Batman tiene lo que se necesita para estar al lado del resto en la Liga de la Justicia. Cualquier humano que pueda derrotar a Superman por pura inteligencia merece ser temido y admirado.',
       img: 'assets/img/batman.png',
       aparicion: '1939-05-01',
       casa: 'DC',
     },
     {
-      nombre: 'Daredevil',
+      nombre: 'Átomo',
       bio:
-        'Al haber perdido la vista, los cuatro sentidos restantes de Daredevil fueron aumentados por la radiación a niveles superhumanos, en el accidente que tuvo cuando era niño. A pesar de su ceguera, puede "ver" a través de un "sexto sentido" que le sirve como un radar similar al de los murciélagos.',
-      img: 'assets/img/daredevil.png',
-      aparicion: '1964-01-01',
-      casa: 'Marvel',
+        'Comparte su nombre de superhéroe con el Atom de la Edad de Oro, pero Ray Palmer es más un científico que un pugilista. Su cinturón patentado de cambio de tamaño le permite encogerse hasta llegar a un tamaño subatómico. Este poder versátil le permite todo tipo de aventuras, desde la ciencia ficción alucinante hasta la aventura más clásica. La suerte de Ray han variado y disminuido en los últimos años, desde las consecuencias trágicas de Identity Crisis hasta su regreso a su reducido papel en The New 52. Sin embargo, sigue siendo el héroe más grande que se llama a sí mismo Átomo y le hemos visto triunfar en la serie de TV Legends of Tomorrow.',
+      img: 'assets/img/atomo.jpg',
+      aparicion: '1940-10-01',
+      casa: 'DC',
     },
     {
-      nombre: 'Hulk',
+      nombre: 'Supergirl',
       bio:
-        'Su principal poder es su capacidad de aumentar su fuerza hasta niveles prácticamente ilimitados a la vez que aumenta su furia. Dependiendo de qué personalidad de Hulk esté al mando en ese momento (el Hulk Banner es el más débil, pero lo compensa con su inteligencia).',
-      img: 'assets/img/hulk.png',
-      aparicion: '1962-05-01',
-      casa: 'Marvel',
+        'Superman puede ser el último hijo de Krypton, pero no es el único superviviente. Su prima, Kara Zor-El, también hizo el gran viaje. Supergirl ha sido un pilar de la franquicia de Superman desde su debut en 1959. Al igual que Mary Marvel y Batgirl, fue un ejemplo temprano de una compañera que desarrolló una gran base de fans por derecho propio. Ha habido muchas versiones del personaje, algunas kryptonianas y otras no. Una de ellas incluso salió con Lex Luthor por un tiempo. Pero en todos los casos, Supergirl ha sido una de los heroínas más poderosas de DC. Y Supergirl triunfa en la TV con su propia serie y crossovers dentro del Arrowverso.',
+      img: 'assets/img/supergirl.jpg',
+      aparicion: '1959-05-01',
+      casa: 'DC',
     },
     {
       nombre: 'Linterna Verde',
       bio:
-        'Poseedor del anillo de poder que posee la capacidad de crear manifestaciones de luz sólida mediante la utilización del pensamiento. Es alimentado por la Llama Verde (revisada por escritores posteriores como un poder místico llamado Starheart), una llama mágica contenida en dentro de un orbe (el orbe era en realidad un meteorito verde de metal que cayó a la Tierra, el cual encontró un fabricante de lámparas llamado Chang)',
-      img: 'assets/img/linterna-verde.png',
+        'Los fans de los cómics tienden a atenerse a lo que saben, y siempre es difícil reemplazar a un héroe familiar con un personaje novato. Pero Kyle Rayner venció las probabilidades. Kyle fue presentado como el nuevo Green Lantern después de que Hal Jordan se volviera loco y casi destruyera la Green Lantern Corps. En términos de personalidad y temperamento, Kyle no podría haber sido más diferente de Hal. Pero él prosperó en el papel y se convirtió en Green Lantern durante una década completa. A pesar de que Hal ha sido redimido y devuelto al servicio, Kyle sigue siendo un héroe activo y uno de los pocos dignos para portar un anillo de Linterna Blanca.',
+      img: 'assets/img/linterna-verde.jpg',
       aparicion: '1940-06-01',
       casa: 'DC',
     },
     {
-      nombre: 'Spider-Man',
+      nombre: 'Flash',
       bio:
-        'Tras ser mordido por una araña radiactiva, obtuvo los siguientes poderes sobrehumanos, una gran fuerza, agilidad, poder trepar por paredes. La fuerza de Spider-Man le permite levantar 10 toneladas o más. Gracias a esta gran fuerza Spider-Man puede realizar saltos íncreibles. Un "sentido arácnido", que le permite saber si un peligro se cierne sobre él, antes de que suceda. En ocasiones este puede llevar a Spider-Man al origen del peligro.',
-      img: 'assets/img/spiderman.png',
-      aparicion: '1962-08-01',
-      casa: 'Marvel',
+        'El debut de Barry Allen en 1956 se asocia al inicio de la Edad de Plata de los cómics de DC. Barry heredó el papel de Flash del héroe de la Edad de Oro, Jay Garrick. Rápidamente demostró ser uno de los más populares de la nueva ola de héroes de DC gracias a sus poderes de velocidad casi ilimitados, sus coloridas aventuras en el tiempo y el espacio, y su interminable lucha por equilibrar sus travesuras de superhéroes con su vida profesional y personal. A pesar de su increíble velocidad, Barry siempre tiene la reputación de llegar tarde. Barry fue asesinado en la historia de 1986, Crisis en Tierras Infinitas, proyectando una larga sombra sobre el resto del Universo DC en el proceso. Pero ya ha regresado y ha vuelto a ser Flash.',
+      img: 'assets/img/flash.png',
+      aparicion: '1940-01-20',
+      casa: 'DC',
     },
     {
-      nombre: 'Wolverine',
+      nombre: 'Superman',
       bio:
-        'En el universo ficticio de Marvel, Wolverine posee poderes regenerativos que pueden curar cualquier herida, por mortal que ésta sea, además ese mismo poder hace que sea inmune a cualquier enfermedad existente en la Tierra y algunas extraterrestres . Posee también una fuerza sobrehumana, que si bien no se compara con la de otros superhéroes como Hulk, sí sobrepasa la de cualquier humano.',
-      img: 'assets/img/wolverine.png',
-      aparicion: '1974-11-01',
-      casa: 'Marvel',
+        'Etiquetar a Superman como el primer superhéroe depende de la definición de "superhéroe" que manejemos. Pero fuese o no el primero, es sin duda el mejor. Superman es la destilación más pura de todo lo que amamos de los héroes. Tiene un origen trágico, casi bíblico: un bebé es enviado de un planeta condenado, es adoptado por una pareja humana y crece para convertirse en el principal defensor de la verdad, la justicia y el estilo de vida estadounidense. Gracias a su fisiología kryptoniana, es un héroe de fuerza casi ilimitada.',
+      img: 'assets/img/superman.jpg',
+      aparicion: '1938-06-15',
+      casa: 'DC',
     },
   ];
 

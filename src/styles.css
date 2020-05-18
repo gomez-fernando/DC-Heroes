@@ -4,7 +4,26 @@
 }
 
 body {
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
+}
+
+.container.content {
+    min-height: 510px;
+}
+
+#home {
+    margin: 10px 0;
+    min-height: 510px;
+    background-image: url("assets/img/dc-world.jpg");
+    background-size: cover;
+}
+
+#navbarSupportedContent {
+    text-align: end;
+}
+
+.navbar-collapse.collapse.show form {
+    display: inline-block;
 }
 
 
@@ -35,4 +54,33 @@ body {
 
 .fadeIn {
     animation-name: fadeIn;
+}
+
+footer {
+    padding: 20px 0px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 0;
+    text-align: center;
+    padding: 1rem;
+}
+
+.copyright a {
+    text-decoration: none;
+    transition: 0.3s ease all;
+}
+
+.copyright a:visited {
+    color: white;
+}
+
+.copyright a:hover {
+    text-decoration: none;
+    color: #007bff;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: scale(1.1);
 }
