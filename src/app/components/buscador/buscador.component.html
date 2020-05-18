@@ -1,0 +1,25 @@
+<h1>Resultados: <small>{{ search }}</small> </h1>
+<hr>
+
+<div *ngIf="heroes.length > 0" class="card-columns">
+    <div class="card animated fadeIn fast" *ngFor="let heroe of heroes; let i = index">
+        <!-- <img src="{{ heroe.img }}" class="card-img-top img-fluid" alt="imagen"> -->
+        <img [src]="heroe.img" class="card-img-top img-fluid" alt="Foto de {{heroe.nombre}}">
+        <div class="card-body">
+            <h5 class="card-title">{{ heroe.nombre }}</h5>
+            <p class="card-text">{{ heroe.bio }}</p>
+            <p class="card-text"><small class="text-muted">{{ heroe.aparicion }}</small></p>
+
+            <button (click)="verHeroe(i)" type="button" class="btn btn-outline-primary btn-block">Ver más...</button>
+            <!-- <a [routerLink]="['/hero', i]" class="btn btn-outline-primary">Ver más...</a> -->
+        </div>
+    </div>
+</div>
+
+<div *ngIf="heroes.length == 0">
+    <div class="animated fadeIn fast">
+        <p class="alert alert-warning">Ningún personaje coincide con la búsqueda</p>
+
+        <a [routerLink]="['/heroes']" class="btn btn-outline-primary">Volver</a>
+    </div>
+</div>
