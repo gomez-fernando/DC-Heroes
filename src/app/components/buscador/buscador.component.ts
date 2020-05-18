@@ -21,7 +21,7 @@ export class BuscadorComponent implements OnInit {
       // console.log(params['search']);
       this.search = params['search'];
       this.heroes = this.heroesService.searchHeroes(params['search']);
-      console.log(this.heroes.length);
+      console.log(this.heroes);
     });
   }
 }
